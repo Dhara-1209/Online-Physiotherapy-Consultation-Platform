@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Recommended Videos</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgba(45, 54, 230, 0.248);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .video-box {
+            flex: 1 1 300px; /* Minimum width for responsiveness */
+            max-width: 500px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Average Score: {{ average_score }}</h1>
+    <div class="container">
+        {% for video in videos %}
+        <div class="video-box">
+            <iframe src="{{ video }}" allowfullscreen></iframe>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
