@@ -14,7 +14,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",         
-        password="dhara",    
+        password="your_password",    
         database="knee",
          auth_plugin='mysql_native_password'
     )
@@ -226,39 +226,16 @@ def get_score(email):
     })
 VIDEO_LINKS = {
      "0-12" : [
-        "https://drive.google.com/file/d/1bxksPhuT1DEeZavkIpffn33HDUpoInxL/preview",
-        "https://drive.google.com/file/d/1cchwWPQArq4_GVWjHJM5Cs1AJKCt0foN/preview",
-        "https://drive.google.com/file/d/1rQDsv9FoKc9hpbe-kZ6GS10BXpNNXSgf/preview",
-        "https://drive.google.com/file/d/1tUJdhfg5i5CiEnOcFnvPzghJmSPNhDWA/preview",
-        "https://drive.google.com/file/d/1Wr14fOp9g328Q519z3Mvi1aQDkMNtp6j/preview",
-        "https://drive.google.com/file/d/1CbtFw9mFc4bacEAKeiwV6wvBwqaszXE3/preview",
-        "https://drive.google.com/file/d/1bxhivz1iZy_PPwpF7GEIWQUSRzNnt-Qw/preview"
+            #yourvideo
     ],
     "12-29" : [
-        "https://drive.google.com/file/d/1bxksPhuT1DEeZavkIpffn33HDUpoInxL/preview",
-        "https://drive.google.com/file/d/1cchwWPQArq4_GVWjHJM5Cs1AJKCt0foN/preview",
-        "https://drive.google.com/file/d/1rQDsv9FoKc9hpbe-kZ6GS10BXpNNXSgf/preview",
-        "https://drive.google.com/file/d/1M2j77cRMSl4PY3jEV7SHqGC7xezKN15i/preview",
-        "https://drive.google.com/file/d/1hW2piG-iJqGkCtaS5F9x83SFpEClt9vN/preview",
-        "https://drive.google.com/file/d/1ka3ZdYXpDuByvPJeHw0ZIhGv8UjqFnxU/preview",
-        "https://drive.google.com/file/d/1DOfVPxH7mYn9YlK7X-aG3dfK_nIGDga-/preview"
+       #yourvideo
     ],
     "29-56" : [
-        "https://drive.google.com/file/d/1DOfVPxH7mYn9YlK7X-aG3dfK_nIGDga-/preview",
-        "https://drive.google.com/file/d/1rQDsv9FoKc9hpbe-kZ6GS10BXpNNXSgf/preview",
-        "https://drive.google.com/file/d/1cchwWPQArq4_GVWjHJM5Cs1AJKCt0foN/preview",
-        "https://drive.google.com/file/d/1bxksPhuT1DEeZavkIpffn33HDUpoInxL/preview",
-        "https://drive.google.com/file/d/1olpaWzjeVEBvm2jhBc8m8xpNeGucCR1c/preview",
-        "https://drive.google.com/file/d/1DmzN9F5YSU0TPe5q06Z0d5pT3Pl0JzxV/preview",
-        "https://drive.google.com/file/d/1D8U4an8makEiizxQyEDIMJpAWgckk2hb/preview",
-        "https://drive.google.com/file/d/1DOfVPxH7mYn9YlK7X-aG3dfK_nIGDga-/preview"
+       #yourvideo
     ],
     "56-100" : [
-        "https://drive.google.com/file/d/1D8U4an8makEiizxQyEDIMJpAWgckk2hb/preview",
-        "https://drive.google.com/file/d/1rQDsv9FoKc9hpbe-kZ6GS10BXpNNXSgf/preview",
-        "https://drive.google.com/file/d/1cchwWPQArq4_GVWjHJM5Cs1AJKCt0foN/preview",
-        "https://drive.google.com/file/d/1bxksPhuT1DEeZavkIpffn33HDUpoInxL/preview",
-        "https://drive.google.com/file/d/1DOfVPxH7mYn9YlK7X-aG3dfK_nIGDga-/preview"
+        #yourvideo
     ]
 }
 
